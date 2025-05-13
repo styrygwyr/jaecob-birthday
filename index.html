@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaecob Shaun's 1st Birthday</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background: url('https://i.imgur.com/lYPu6Q5.jpg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      background-color: rgba(255, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 3em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+
+    .event-details p {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea, button {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    input, textarea {
+      background-color: #222;
+      color: #fff;
+    }
+
+    button {
+      background-color: #ff0000;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jaecob Shaun Turns ONE!</h1>
+  </header>
+
+  <section>
+    <h2>Welcome, Heroes!</h2>
+    <p>Calling all heroes! Our little superhero, <strong>Jaecob Shaun Solangon</strong>, is turning <strong>ONE</strong>! Join us for an action-packed celebration filled with laughter, love, and lots of Jollibee joy. Suit up and help us make this day <em>Incredible</em>!</p>
+  </section>
+
+  <section class="event-details">
+    <h2>Party Details</h2>
+    <p><strong>📅 Date:</strong> February 14, 2026</p>
+    <p><strong>🕐 Time:</strong> 1:00 PM</p>
+    <p><strong>📍 Venue:</strong> Jollibee Canlubang</p>
+  </section>
+
+  <section>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200.png?text=Jaecob+1" alt="Gallery 1">
+      <img src="https://via.placeholder.com/300x200.png?text=Jaecob+2" alt="Gallery 2">
+      <img src="https://via.placeholder.com/300x200.png?text=Jaecob+3" alt="Gallery 3">
+      <img src="https://via.placeholder.com/300x200.png?text=Family" alt="Gallery 4">
+    </div>
+  </section>
+
+  <section>
+    <h2>Venue Map</h2>
+    <iframe
+      src="https://www.google.com/maps?q=Jollibee+Canlubang&output=embed"
+      allowfullscreen
+    ></iframe>
+  </section>
+
+  <section>
+    <h2>RSVP Form</h2>
+    <form action="mailto:solangonjay@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="contact" placeholder="Contact Number">
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send RSVP</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>See you there! — Jay Solangon | 09202037977</p>
+  </footer>
+
+</body>
+</html>
